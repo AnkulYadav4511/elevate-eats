@@ -1,4 +1,4 @@
-# TOMATO - Food Ordering Website
+# 🍽️ Elevate Eats - Smart Food Ordering System
 
 This repository hosts the source code for TOMATO, a dynamic food ordering website built with the MERN Stack. It offers a user-friendly platform for seamless online food ordering.
 
@@ -116,9 +116,26 @@ Start the Backend server
 * [JWT-Authentication](https://jwt.io/introduction)
 * [Multer](https://www.npmjs.com/package/multer)
 
+## 📚 Research Paper
+
+Presented at **3rd International Conference on Network and Cryptology (NetCrypt)**  
+Paper Title: *"ElevateEats: ML-Based Food Ordering System for Health-Conscious Diners"*
+
+## 📬 Contact
+
+📧 Email: ankulyadav4511@gmail.com
+
 ## Deployment
 
 The application is deployed on Render.
+
+## ⭐ How to Use
+
+> Upload this README.md file into your GitHub repo → it will show like the "TOMATO" one.
+
+---
+
+Would you like me to generate this as a ready `.md` file for you to upload directly?
 
 ## Contributing
 
