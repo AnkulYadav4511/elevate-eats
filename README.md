@@ -44,3 +44,39 @@
 
 ## 📁 Folder Structure
 
+
+---
+
+## 👨‍💻 Authors
+
+- Ankul Yadav
+- Sujal Sharma
+- Shubham Yadav
+- Mayur Parab
+
+Under the guidance of  
+**Dr. Sameer Nanivadekar** & **Ms. Shital Agrawal**
+
+---
+
+## 📚 Research Paper
+
+Presented at **3rd International Conference on Network and Cryptology (NetCrypt)**  
+Paper Title: *"ElevateEats: ML-Based Food Ordering System for Health-Conscious Diners"*
+
+---
+
+## 📬 Contact
+
+📧 Email: ankulyadav4511@gmail.com
+
+---
+
+## ⭐ How to Use
+
+> Upload this README.md file into your GitHub repo → it will show like the "TOMATO" one.
+
+---
+
+Would you like me to generate this as a ready `.md` file for you to upload directly?
+
