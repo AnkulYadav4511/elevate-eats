@@ -1,130 +1,46 @@
-# TOMATO - Food Ordering Website
+# 🍽️ Elevate Eats - Smart Food Ordering System
 
-This repository hosts the source code for TOMATO, a dynamic food ordering website built with the MERN Stack. It offers a user-friendly platform for seamless online food ordering.
+**Elevate Eats** is a health-conscious food ordering system powered by machine learning. It provides personalized food suggestions based on user preferences, dietary goals, and nutritional values.
 
-## Demo
+---
 
-- User Panel: [https://food-delivery-frontend-s2l9.onrender.com/](https://food-delivery-frontend-s2l9.onrender.com/)
-- Admin Panel: [https://food-delivery-admin-wrme.onrender.com/](https://food-delivery-admin-wrme.onrender.com/)
+## 🔗 Demo
 
-## Features
+- **User Panel**: [https://elevateeats-user.onrender.com](#)
+- **Admin Panel**: [https://elevateeats-admin.onrender.com](#)
 
-- User Panel
-- Admin Panel
+*(Update these with your Render or hosting URLs)*
+
+---
+
+## 🛠️ Features
+
+- User Panel (Browse, Order, Track)
+- Admin Panel (Manage Foods & Orders)
+- ML-Based Food Recommendations
+  - Content-Based Filtering
+  - k-NN Clustering
+  - CNN for image analysis
+- Secure Login/Signup
 - JWT Authentication
-- Password Hashing with Bcrypt
 - Stripe Payment Integration
-- Login/Signup
-- Logout
-- Add to Cart
-- Place Order
-- Order Management
-- Products Management
-- Filter Food Products
-- Login/Signup
-- Authenticated APIs
-- REST APIs
-- Role-Based Identification
-- Beautiful Alerts
+- Blockchain-based Payment (MetaMask)
+- Order History
+- Nutrition Info Display
 
-## Screenshots
+---
 
-![Hero](https://i.ibb.co/59cwY75/food-hero.png)
-- Hero Section
+## 🧰 Tech Stack
 
-![Products](https://i.ibb.co/JnNQPyQ/food-products.png)
-- Products Section
+| Layer        | Technology             |
+|--------------|-------------------------|
+| Frontend     | ReactJS, Streamlit      |
+| Backend      | Node.js, Express.js     |
+| Machine Learning | Python, Scikit-learn, TensorFlow |
+| Database     | MongoDB                 |
+| Payments     | Stripe API, MetaMask    |
 
-![Cart](https://i.ibb.co/t2LrQ8p/food-cart.png)
-- Cart Page
+---
 
-![Login](https://i.ibb.co/s6PgwkZ/food-login.png)
-- Login Popup
+## 📁 Folder Structure
 
-## Run Locally
-
-Clone the project
-
-```bash
-    git clone https://github.com/Mshandev/Food-Delivery
-```
-Go to the project directory
-
-```bash
-    cd Food-Delivery
-```
-Install dependencies (frontend)
-
-```bash
-    cd frontend
-    npm install
-```
-Install dependencies (admin)
-
-```bash
-    cd admin
-    npm install
-```
-Install dependencies (backend)
-
-```bash
-    cd backend
-    npm install
-```
-Setup Environment Vaiables
-
-```Make .env file in "backend" folder and store environment Variables
-  JWT_SECRET=YOUR_SECRET_TEXT
-  SALT=YOUR_SALT_VALUE
-  MONGO_URL=YOUR_DATABASE_URL
-  STRIPE_SECRET_KEY=YOUR_KEY
- ```
-
-Setup the Frontend and Backend URL
-   - App.jsx in Admin folder
-      const url = YOUR_BACKEND_URL
-     
-  - StoreContext.js in Frontend folder
-      const url = YOUR_BACKEND_URL
-
-  - orderController in Backend folder
-      const frontend_url = YOUR_FRONTEND_URL 
-
-Start the Backend server
-
-```bash
-    nodemon server.js
-```
-
-Start the Frontend server
-
-```bash
-    npm start
-```
-
-Start the Backend server
-
-```bash
-    npm start
-```
-## Tech Stack
-* [React](https://reactjs.org/)
-* [Node.js](https://nodejs.org/en)
-* [Express.js](https://expressjs.com/)
-* [Mongodb](https://www.mongodb.com/)
-* [Stripe](https://stripe.com/)
-* [JWT-Authentication](https://jwt.io/introduction)
-* [Multer](https://www.npmjs.com/package/multer)
-
-## Deployment
-
-The application is deployed on Render.
-
-## Contributing
-
-Contributions are always welcome!
-Just raise an issue, and we will discuss it.
-
-## Feedback
-
-If you have any feedback, please reach out to me [here](https://www.linkedin.com/in/muhammad-shan-full-stack-developer/)
