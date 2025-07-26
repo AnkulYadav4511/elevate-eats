@@ -1,77 +1,130 @@
-# Elevate Eats 🍽️  
-**Smart Food Recommendation System for Health-Conscious Diners**
+# TOMATO - Food Ordering Website
 
-Elevate Eats is a personalized food recommendation system designed to help health-conscious users discover meals that suit their dietary needs, health goals, and preferences. It combines machine learning and image analysis to deliver intelligent suggestions.
+This repository hosts the source code for TOMATO, a dynamic food ordering website built with the MERN Stack. It offers a user-friendly platform for seamless online food ordering.
 
----
+## Demo
 
-## 🚀 Features
+- User Panel: [https://food-delivery-frontend-s2l9.onrender.com/](https://food-delivery-frontend-s2l9.onrender.com/)
+- Admin Panel: [https://food-delivery-admin-wrme.onrender.com/](https://food-delivery-admin-wrme.onrender.com/)
 
-- 🍲 Personalized food suggestions using **content-based filtering** and **k-NN**
-- 📊 User clustering for better grouping and targeted recommendations
-- 🧠 Nutritional analysis from food images using **CNN (Convolutional Neural Network)**
-- 🥗 Designed for users with specific health goals (e.g., weight loss, high protein, low carb)
-- 🔍 Smart and intuitive user experience
+## Features
 
----
+- User Panel
+- Admin Panel
+- JWT Authentication
+- Password Hashing with Bcrypt
+- Stripe Payment Integration
+- Login/Signup
+- Logout
+- Add to Cart
+- Place Order
+- Order Management
+- Products Management
+- Filter Food Products
+- Login/Signup
+- Authenticated APIs
+- REST APIs
+- Role-Based Identification
+- Beautiful Alerts
 
-## 🛠️ Technologies Used
+## Screenshots
 
-- **Frontend**: HTML, CSS ,JavaScript,ReactJS,Steamlit
-- **Backend**: Node.js + Express.js,Python,MongoDB
-- **Algorithms**:
-  - Content-Based Filtering
-  - k-NN (k-Nearest Neighbors)
-  - Clustering
-  - CNN for image analysis
-- **Libraries**: NumPy, Pandas, scikit-learn, TensorFlow/Keras, OpenCV (if image processing used)
+![Hero](https://i.ibb.co/59cwY75/food-hero.png)
+- Hero Section
 
------
+![Products](https://i.ibb.co/JnNQPyQ/food-products.png)
+- Products Section
 
-## 📁 Project Structure
-elevate-eats/
-├── data/ # Datasets and images
-├── models/ # Saved machine learning models
-├── app.py # Main backend app
-├── recommendations.py # Recommendation logic
-├── cnn_model.py # CNN for food image analysis
-├── templates/ # HTML templates (if any)
-└── README.md # Project documentation
+![Cart](https://i.ibb.co/t2LrQ8p/food-cart.png)
+- Cart Page
 
+![Login](https://i.ibb.co/s6PgwkZ/food-login.png)
+- Login Popup
 
-------------------------------------
+## Run Locally
 
-## 📸 Sample
+Clone the project
 
-*(Insert a screenshot or image of your interface or model output here)*
+```bash
+    git clone https://github.com/Mshandev/Food-Delivery
+```
+Go to the project directory
 
----
+```bash
+    cd Food-Delivery
+```
+Install dependencies (frontend)
 
-## 🤝 Contributors
+```bash
+    cd frontend
+    npm install
+```
+Install dependencies (admin)
 
-- Ankul Yadav
-- Sujal Sharma
-- Mayur Parab
-- Shubham Yadav
-- Dr. Sameer Nanivadekar
-- Shital Agrawal
+```bash
+    cd admin
+    npm install
+```
+Install dependencies (backend)
 
----
+```bash
+    cd backend
+    npm install
+```
+Setup Environment Vaiables
 
-## 📌 Future Enhancements
+```Make .env file in "backend" folder and store environment Variables
+  JWT_SECRET=YOUR_SECRET_TEXT
+  SALT=YOUR_SALT_VALUE
+  MONGO_URL=YOUR_DATABASE_URL
+  STRIPE_SECRET_KEY=YOUR_KEY
+ ```
 
-- Add login/signup system
-- Meal-tracking history
-- Integration with nutrition APIs
-- Mobile version
+Setup the Frontend and Backend URL
+   - App.jsx in Admin folder
+      const url = YOUR_BACKEND_URL
+     
+  - StoreContext.js in Frontend folder
+      const url = YOUR_BACKEND_URL
 
----
+  - orderController in Backend folder
+      const frontend_url = YOUR_FRONTEND_URL 
 
-## 📬 Contact
+Start the Backend server
 
-For queries or collaboration, reach out to **ankulyadav4511@gmail.com**
+```bash
+    nodemon server.js
+```
 
----
+Start the Frontend server
 
+```bash
+    npm start
+```
 
+Start the Backend server
 
+```bash
+    npm start
+```
+## Tech Stack
+* [React](https://reactjs.org/)
+* [Node.js](https://nodejs.org/en)
+* [Express.js](https://expressjs.com/)
+* [Mongodb](https://www.mongodb.com/)
+* [Stripe](https://stripe.com/)
+* [JWT-Authentication](https://jwt.io/introduction)
+* [Multer](https://www.npmjs.com/package/multer)
+
+## Deployment
+
+The application is deployed on Render.
+
+## Contributing
+
+Contributions are always welcome!
+Just raise an issue, and we will discuss it.
+
+## Feedback
+
+If you have any feedback, please reach out to me [here](https://www.linkedin.com/in/muhammad-shan-full-stack-developer/)
