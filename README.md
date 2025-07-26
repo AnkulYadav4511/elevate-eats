@@ -17,8 +17,8 @@ Elevate Eats is a personalized food recommendation system designed to help healt
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: HTML, CSS (optional)
-- **Backend**: Python
+- **Frontend**: HTML, CSS ,JavaScript,ReactJS,Steamlit
+- **Backend**: Node.js + Express.js,Python,MongoDB
 - **Algorithms**:
   - Content-Based Filtering
   - k-NN (k-Nearest Neighbors)
